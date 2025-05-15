@@ -1,0 +1,15 @@
+1) deixar a versao 1.32.12 do sass no package.json para nao gerar erros
+
+ou
+
+2)atualizar o sass
+https://sass-lang.com/documentation/breaking-changes/slash-div/
+
+npm install -g sass-migrator
+sass-migrator division **/*.scss
+sass-migrator division node_modules/quasar/src/css/**/*.sass
+
+
+
+divisao match ultima que tem o quasar, depois do 1.79 tem aviso 
+sass@1.78.0
